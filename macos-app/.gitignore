@@ -1,0 +1,9 @@
+.build/
+.swiftpm/
+*.xcodeproj
+.DS_Store
+
+# code-signing temp files (scripts/setup-signing.sh cleans these up itself,
+# this is just a safety net)
+*.p12
+*.pem

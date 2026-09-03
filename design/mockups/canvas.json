@@ -1,0 +1,11 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html", "x": 0, "y": 0, "w": 390, "h": 844, "title": "Workspace Grid", "is_interactive": true },
+    { "file": "Media.dc.html", "x": 470, "y": 0, "w": 390, "h": 844, "title": "Audio Stream", "is_interactive": true },
+    { "file": "Brightness.dc.html", "x": 940, "y": 0, "w": 390, "h": 844, "title": "Display Luminance", "is_interactive": true }
+  ],
+  "annotations": [
+    { "id": "brief-note", "x": 0, "y": -90, "w": 900, "text": "Overwatch Node — cyberpunk HUD direction v2. Tap tiles / drag sliders to try the interactions before any app code is written." }
+  ],
+  "launch": { "view": "canvas" }
+}
