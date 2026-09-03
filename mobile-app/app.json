@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Overwatch Node",
+    "slug": "overwatch-node",
+    "scheme": "overwatchnode",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#070a11",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.navaneeth.overwatchnode",
+      "infoPlist": {
+        "NSBonjourServices": ["_overwatchnode._tcp", "_expo._tcp"],
+        "NSLocalNetworkUsageDescription": "Overwatch Node uses your local network to discover and connect to your Mac."
+      }
+    },
+    "android": {
+      "package": "com.navaneeth.overwatchnode",
+      "adaptiveIcon": {
+        "backgroundColor": "#070a11",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.ACCESS_WIFI_STATE",
+        "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+        "android.permission.ACCESS_NETWORK_STATE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-splash-screen",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ]
+  }
+}
